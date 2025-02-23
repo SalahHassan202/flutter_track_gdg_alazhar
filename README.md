@@ -10,3 +10,11 @@ You will find:
 - 🚀 Everything related to my journey in app development  
 
 **My goal is to become the best version of myself!** 💡  
+
+🤝 Contributions
+If you're interested in suggesting improvements or adding enhancements, feel free to open an Issue or submit a Pull Request. 😊
+
+⭐ Support the Repository
+If you find this repository helpful, don't forget to give it a Star ⭐ to support my journey! 🚀
+
+✍️ Written By : Salah Hassan - Student and Developer. 😊
