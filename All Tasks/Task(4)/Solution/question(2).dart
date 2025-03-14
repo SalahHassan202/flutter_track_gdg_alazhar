@@ -15,6 +15,43 @@ void main() {
   }
 }
 
+// Account Name: salah
+// Account Number: 101158
+// Account Type: Savings
+// Balance: 4000.0
+// Deposit successful.
+// New Balance is 4700.0
+// Withdraw successful.
+// New Balance is 4400.0
+// *********************************
+// Account Name: ali
+// Account Number: 102149
+// Account Type: Current
+// Balance: 1500.0
+// Deposit successful.
+// New Balance is 2200.0
+// Withdraw successful.
+// New Balance is 1900.0
+// *********************************
+// Account Name: ahmed
+// Account Number: 102787
+// Account Type: Savings
+// Balance: 9000.0
+// Deposit successful.
+// New Balance is 9700.0
+// Withdraw successful.
+// New Balance is 9400.0
+// *********************************
+// Account Name: maha
+// Account Number: 1013648
+// Account Type: Current
+// Balance: 2500.0
+// Deposit successful.
+// New Balance is 3200.0
+// Withdraw successful.
+// New Balance is 2900.0
+// *********************************
+
 class BankAccount {
   String? name;
   int? accountNumber;
@@ -34,28 +71,36 @@ class BankAccount {
     }
   }
 
-  void deposit(double amount) {
+  void deposit(double amount)
+  {
     if (amount > 0) {
       _balance += amount;
       print("Deposit successful.");
       print("New Balance is $_balance");
-    } else {
+    }
+    else
+    {
       print("Amount should be greater than 0");
     }
   }
 
-  void withdraw(double amount) {
-    if ((_balance - amount) >= 1000) {
+  void withdraw(double amount)
+  {
+    if ((_balance - amount) >= 1000)
+    {
       _balance -= amount;
       print("Withdraw successful.");
       print("New Balance is $_balance");
-    } else {
+    }
+    else
+    {
       print("Minimum balance required is 1000");
       print("Current balance is $_balance");
     }
   }
 
-  void display() {
+  void display()
+  {
     print("Account Name: $name");
     print("Account Number: $accountNumber");
     print("Account Type: $typeOfAccount");
