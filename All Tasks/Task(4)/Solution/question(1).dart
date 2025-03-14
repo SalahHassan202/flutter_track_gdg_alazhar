@@ -2,6 +2,10 @@ void main()
 {
   Car c1 = Car(name :"Kia" , model : "2022" ,color : "black" ) ;
   c1.display() ;
+  // output
+  // Kia
+  // 2022 
+  // black
 }
 
 
